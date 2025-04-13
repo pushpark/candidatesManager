@@ -1,8 +1,4 @@
-Here's a concise **README.md** with setup instructions and the requested `.env` file:
-
----
-
-# Candidates Management System
+# Candidates Manager
 
 ## Setup Instructions
 
