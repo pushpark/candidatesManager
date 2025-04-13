@@ -52,6 +52,3 @@ DB_URL="mongodb+srv://pushpark:dheeran1@cluster0.ulcxz3f.mongodb.net/candidatesd
 - Backend: `http://localhost:3004`
 - Frontend: `http://localhost:3000`
 
----
-
-**Important**: Change the MongoDB credentials immediately after testing as they are exposed in this README. For production, use environment-secured variables.
