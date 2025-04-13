@@ -1,0 +1,17 @@
+Get http://localhost:3004/candidates
+###
+
+POST http://localhost:3004/candidates
+Content-Type: application/json
+
+{
+  "name": "Abhi9",
+  "phone": "9876543229",
+  "email": "abh59doe@example.com",
+  "gender": "Male",
+  "experience": "3 Years",
+  "skills": ["HTML","CSS","Python"]
+}
+
+###
+DELETE http://localhost:3004/candidates/67fb5815895d28c46d284f8b
