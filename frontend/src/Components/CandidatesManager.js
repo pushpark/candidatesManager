@@ -20,7 +20,7 @@ const CandidatesManager = () => {
 
   const fetchCandidates = async () => {
     try {
-      const response = await axios.get("http://localhost:3004/candidates");
+      const response = await axios.get("https://candidates-manager.vercel.app/candidates");
       const { data } = response.data;
       setCandidates(data);
       setFilteredCandidates(data);
@@ -63,7 +63,7 @@ const CandidatesManager = () => {
 
   const handleAddCandidate = async (newCandidate) => {
     try {
-      await axios.post("http://localhost:3004/candidates", newCandidate);
+      await axios.post("https://candidates-manager.vercel.app/candidates", newCandidate);
       fetchCandidates();
       setIsModalOpen(false);
       setError(false);
